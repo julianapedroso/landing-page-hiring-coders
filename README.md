@@ -14,7 +14,7 @@
 <hr />
 
 ### ☁️ Deploy:
-
+https://juliana-hiring-books-shop.netlify.app/
 
 ### ✨ Funcionamento:
 - [x] Formulário com os campos validados
