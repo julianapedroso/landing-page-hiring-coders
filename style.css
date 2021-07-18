@@ -1,0 +1,286 @@
+:root {
+  --primary-color: #fe9901;
+  --dark-gray: #3d3d3d;
+  --black: #000;
+  --white: #fff;
+  --ice: #f0f2f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--dark-gray);
+  font-family: "Poppins", sans-serif;
+}
+
+#cover {
+  background: var(--dark-gray);
+  height: 50vh;
+}
+
+#wrapper-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cover-image {
+  min-width: 40%;
+}
+
+#free-shipping {
+  display: flex;
+  justify-content: center;
+}
+
+#free-shipping button {
+  background: var(--primary-color);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  height: 2.5rem;
+  width: 12rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#devisor {
+  background: var(--ice);
+  height: 6vh;
+}
+
+#main-container {
+  background: var(--white);
+  padding: 2rem 0;
+}
+
+h2 {
+  color: var(--black);
+  text-align: center;
+}
+
+h5 {
+  font-weight: normal;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2.5rem;
+}
+
+#card {
+  background: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#card:hover {
+  width: 100%;
+}
+
+.book-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.3rem;
+  font-size: 0.7rem;
+}
+
+.product-card {
+  margin: 0.5rem;
+  padding: 1rem;
+  max-width: 60%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px rgb(0 0 0 / 10%);
+}
+
+.price-current {
+  font-weight: bold;
+}
+
+.price-discount {
+  font-size: 0.7rem;
+  opacity: 0.5;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+
+.image-display {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.star {
+  width: 40%;
+}
+
+.product-card button {
+  background: var(--primary-color);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  height: 2.5rem;
+  width: 12rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: var(--dark-gray);
+  transition: 300ms;
+}
+
+#register {
+  background: var(--dark-gray);
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  align-items: center;
+  width: 30%;
+  margin: 2rem;
+}
+
+form h4 {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 1rem;
+  margin: 0.3rem 0;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+#button-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#button-submit {
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 65%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--white);
+  cursor: pointer;
+}
+
+#button-submit:hover {
+  background-color: var(--dark-gray);
+  transition: 300ms;
+}
+
+footer {
+  background: var(--primary-color);
+  color: var(--black);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  min-width: 100%;
+  text-align: center;
+  margin-top: 3em;
+  padding: 2rem 0 2rem;
+}
+
+a {
+  color: var(--black);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#social-networks {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 299px) and (max-width: 430px) {
+  .cover-image {
+    width: 100%;
+  }
+
+  #cover {
+    height: 30vh;
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin: 0.8rem 1rem;
+  }
+
+  h5 {
+    font-size: 0.7rem;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  form h4 {
+    font-size: 1rem;
+  }
+
+  form h4 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  #button-submit {
+    width: 100%;
+  }
+
+  footer {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 680px) {
+  form {
+    width: 70%;
+  }
+}
+
+@media (min-width: 681px) and (max-width: 900px) {
+  form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1220px) {
+  form {
+    width: 40%;
+  }
+}
