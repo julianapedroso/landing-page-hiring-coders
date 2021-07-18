@@ -1,4 +1,4 @@
-# Desafio Hiring Coders - Leading Page 📈📚
+# Desafio Hiring Coders - Landing Page 📈📚
 
 <h2 align='center'>
   <img src="https://uploads-ssl.webflow.com/5f2d50967d364984a023dc4c/6092fbd604ec856a42087576_MARCA__RGB__GAMA-ACADEMY__COR__HORIZONTAL.png" width="35%" alt="Logo Gama Academy | Hiring Coders"/>
